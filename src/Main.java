@@ -49,7 +49,7 @@ public class Main {
         double var6 = 34.34546567567675676567567d;
         boolean var7 = true;
         char var8 = 'C';
-        String var9 = "Hello, World!";
+        String var9 = "Hello, World!!!!!";
     }
 
     static float doTask3(float a, float b, float c, float d) {

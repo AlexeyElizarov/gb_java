@@ -1,5 +1,3 @@
-import java.awt.*;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -78,7 +76,7 @@ public class Main {
             parity = "положительное";
         }
 
-        System.out.println(a + " - " + parity + " число.");
+        System.out.println(String.format("%s - %s число", a, parity));
     }
 
     static boolean doTask6 (int a) {
@@ -91,7 +89,7 @@ public class Main {
     static void doTask7(String str) {
         // Написать метод, которому в качестве параметра передается строка, обозначающая имя,
         // метод должен вывести в консоль сообщение «Привет, указанное_имя!»;
-        System.out.println("Привет, " + str + "!");
+        System.out.println(String.format("Привет, %s!", str));
     }
 
     static void doTask8(int year) {
@@ -106,7 +104,7 @@ public class Main {
             leap_year = "високосный";
         }
 
-        System.out.println("Год " + year + " - " + leap_year);
+        System.out.println(String.format("Год %s - %s", year, leap_year));
     }
 
 }
